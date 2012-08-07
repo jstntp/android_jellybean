@@ -745,7 +745,7 @@
 
     <!-- If this value is true, The mms content-disposition field is supported correctly.
          If false, Content-disposition fragments are ignored -->
-    <bool name="config_mms_content_disposition_support">true</bool>
+    <bool name="config_mms_content_disposition_support">false</bool>
 
     <!-- National Language Identifier codes for the following two config items.
          (from 3GPP TS 23.038 V9.1.1 Table 6.2.1.2.4.1):
