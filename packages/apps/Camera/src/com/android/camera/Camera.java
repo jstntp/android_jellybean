@@ -1615,7 +1615,6 @@ public class Camera extends ActivityBase implements FocusManager.Listener,
         closeCamera();
         if (mSurfaceTexture != null) {
             mCameraScreenNail.releaseSurfaceTexture();
-            mSurfaceTexture = null;
         }
         if (mCameraSound != null) {
             mCameraSound.release();
@@ -1779,7 +1778,7 @@ public class Camera extends ActivityBase implements FocusManager.Listener,
                 File path = getFileStreamPath(sTempCropFilename);
                 path.delete();
 
-                break;
+                break;packages/apps/Camera
             }
         }
     }
